@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Navbar from './navbar';
 import '../Styles/style.css'
 
-export default class top extends Component {
+export default class Top extends Component {
     render() {
         return (
             <>

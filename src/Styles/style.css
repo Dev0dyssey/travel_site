@@ -1,5 +1,7 @@
 .Top {
-    background-image: url('../images/img_maingallery_couplemountains.jpg');
+    background-image: 
+    linear-gradient(rgba(66, 134, 244, 1), 10%, rgba(255, 255, 255, 0.0)),
+    url('../images/img_maingallery_couplemountains.jpg');
     background-size: cover;
     height: 1224px;
     text-align: left;
@@ -21,4 +23,23 @@
 .Middle {
     background-image: url('../images/Middle.png');
     height: 397px;
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    text-align: center;
+    padding-top: 71px;
+}
+
+.Middle h4 {
+    font-weight: 700;
+    padding-bottom: 27px;
+}
+
+.Middle p {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.Bottom {
+    height: 379px;
 }
