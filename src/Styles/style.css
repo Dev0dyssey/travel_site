@@ -1,0 +1,24 @@
+.Top {
+    background-image: url('../images/img_maingallery_couplemountains.jpg');
+    background-size: cover;
+    height: 1224px;
+    text-align: left;
+}
+
+.top-text {
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 500px;
+    margin-left: 350px;
+    vertical-align: -400px;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.Middle {
+    background-image: url('../images/Middle.png');
+    height: 397px;
+}
