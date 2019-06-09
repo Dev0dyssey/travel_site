@@ -15,24 +15,26 @@ export default class navbar extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{fontFamily: `'Poppins', 'sans-serif'`, fontWeight: '700'}}>
                 <ul className="navbar-nav nav-fill w-50">
                 <li className="nav-item active">
-                    <span className="nav-link" href="#">EXPLORE <span className="sr-only">(current)</span></span>
+                    <a className="nav-link" href="#">EXPLORE <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item active">
-                    <span className="nav-link" href="#">STAY <span className="sr-only">(current)</span></span>
+                    <a className="nav-link" href="#">STAY <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item active">
-                    <span className="nav-link" href="#">EXPERIENCE</span>
+                    <a className="nav-link" href="#">EXPERIENCE</a>
                 </li>
                 <li className="nav-item active">
-                    <span className="nav-link" href="#">TRAVEL</span>
+                    <a className="nav-link" href="#">TRAVEL</a>
                 </li>
                 <li className="nav-item active">
-                    <span className="nav-link" href="#">ABOUT</span>
+                    <a className="nav-link" href="#">ABOUT</a>
                 </li>
                 </ul>
             </div>
             <div>
-                <i className="fas fa-search fa-2x" style={{color: 'white'}}></i>
+                <a class="nav-link" href="#">
+                    <i className="fas fa-search fa-2x" style={{color: 'white'}}></i>
+                </a>
             </div>
 
             </nav>
