@@ -1,3 +1,7 @@
+img {
+    width: 100%;
+}
+
 .Top {
     background-image: 
     linear-gradient(rgba(66, 134, 244, 1), 10%, rgba(255, 255, 255, 0.0)),
@@ -40,6 +44,29 @@
     font-weight: 100;
 }
 
-.Bottom {
-    height: 379px;
+.bottom-text {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.bottom-text h3 {
+    font-weight: 700;
+}
+
+.styling {
+    padding-left: 10%; 
+    padding-right: 10%;
+}
+
+.Footer {
+    padding-top: 37px;
+    height: 57px;
+    font-size: 13px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.Footer img {
+    height: 33px;
+    width: 166px;
+    padding-right: 22px;
+    float: right;
 }
