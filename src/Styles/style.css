@@ -70,3 +70,7 @@ img {
     padding-right: 22px;
     float: right;
 }
+
+.dropdown-toggle::after {
+    display:none;
+}
