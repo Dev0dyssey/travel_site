@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Top from './Top';
+import Top from './top';
 import Middle from './Middle';
 import Bottom from './Bottom';
 import Footer from './Footer';
