@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import logo from '../images/logo_icon.png';
 
 export default class navbar extends Component {
+    /* eslint-disable */
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark" >
