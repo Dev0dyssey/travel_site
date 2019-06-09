@@ -9,9 +9,6 @@ export default class navbar extends Component {
                 <img src={logo} alt="logo"></img>
             </span>
             <span className="navbar-brand">
-                {/* <a className='nav-link' href="#">
-                <i class="fas fa-bars fa-2x" style={{color: 'white'}}></i>
-                </a> */}
                 <span className = "nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i className="fas fa-bars fa-2x" style={{color: 'white'}}></i>
